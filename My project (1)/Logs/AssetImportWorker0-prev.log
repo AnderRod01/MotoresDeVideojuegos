@@ -1,0 +1,2460 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'es' Physical Memory: 32559 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Usuario/My project (1)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54406
+Successfully changed project path to: C:/Users/Usuario/My project (1)
+C:/Users/Usuario/My project (1)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16464] Host "[IP] 192.168.1.41 [Port] 0 [Flags] 2 [Guid] 2901203804 [EditorId] 2901203804 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CRQ3S50) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16464] Host "[IP] 192.168.1.41 [Port] 0 [Flags] 2 [Guid] 2901203804 [EditorId] 2901203804 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CRQ3S50) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 8.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Usuario/My project (1)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8038 MB
+    Driver:   31.0.15.3734
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008424 seconds.
+- Loaded All Assemblies, in  0.354 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.262 seconds
+Domain Reload Profiling: 614ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (144ms)
+		LoadAssemblies (105ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (140ms)
+				TypeCache.ScanAssembly (127ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (262ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (204ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (132ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.599 seconds
+Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.552 seconds
+Domain Reload Profiling: 1148ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (362ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (136ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (552ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (405ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (308ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3069 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3531.
+Memory consumption went from 114.2 MB to 114.2 MB.
+Total: 4.302100 ms (FindLiveObjects: 0.473700 ms CreateObjectMapping: 0.206300 ms MarkObjects: 3.475900 ms  DeleteObjects: 0.144600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 79426.715009 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(d7ce462e7e5f99c45adabba847c25339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(d7ce462e7e5f99c45adabba847c25339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1980d253c6a7f725e188618abb182a89') in 0.002874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3531.
+Memory consumption went from 65.4 MB to 65.3 MB.
+Total: 2.615000 ms (FindLiveObjects: 0.244400 ms CreateObjectMapping: 0.102500 ms MarkObjects: 2.244800 ms  DeleteObjects: 0.022700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 647.783899 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.001077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.932123 seconds.
+  path: Assets/scriptableObjects
+  artifactKey: Guid(63ceca2016eff9b4e86c5bcb7c098739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scriptableObjects using Guid(63ceca2016eff9b4e86c5bcb7c098739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912e9eb0fcd53f5820c62d7e86eb245b') in 0.000585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 547.217520 seconds.
+  path: Assets/scripts
+  artifactKey: Guid(eb75508db2715eb47ab990df876c325b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts using Guid(eb75508db2715eb47ab990df876c325b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8041a9e520edc7c99a3c088f775c44') in 0.000638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 32.826692 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a76750deb3ce7f13b216d91e5333e7') in 0.000461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.437 seconds
+Refreshing native plugins compatible for Editor in 3.03 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.952 seconds
+Domain Reload Profiling: 1386ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (205ms)
+		LoadAssemblies (264ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (952ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (417ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (314ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3535.
+Memory consumption went from 113.1 MB to 113.0 MB.
+Total: 2.965300 ms (FindLiveObjects: 0.261900 ms CreateObjectMapping: 0.105300 ms MarkObjects: 2.471300 ms  DeleteObjects: 0.125800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8.717199 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b105e4edbaeef73b51fc64bfca57bc6') in 0.002042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.397 seconds
+Refreshing native plugins compatible for Editor in 3.44 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.892 seconds
+Domain Reload Profiling: 1287ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (192ms)
+		LoadAssemblies (246ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (892ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (334ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (230ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3538.
+Memory consumption went from 113.1 MB to 113.0 MB.
+Total: 2.604800 ms (FindLiveObjects: 0.259100 ms CreateObjectMapping: 0.080500 ms MarkObjects: 2.218600 ms  DeleteObjects: 0.046000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 111.407915 seconds.
+  path: Packages/com.unity.ext.nunit/package.json
+  artifactKey: Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/package.json using Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e6ff00f4d339ca929f0df7e6e68e04') in 0.009482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.703846 seconds.
+  path: Packages/com.unity.testtools.codecoverage/package.json
+  artifactKey: Guid(ba7d60725b0ec604698819352642be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.testtools.codecoverage/package.json using Guid(ba7d60725b0ec604698819352642be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c0d7986351c1cbb24f6cf9b3a39b6b') in 0.001007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.492507 seconds.
+  path: Packages/com.unity.ide.rider/package.json
+  artifactKey: Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.rider/package.json using Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0040ba62563e71d44e83ddfb9b7361b') in 0.001110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.333144 seconds.
+  path: Packages/com.unity.test-framework/package.json
+  artifactKey: Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.test-framework/package.json using Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f735537715d2afc1cf422a3d98bb5408') in 0.001273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 117.990905 seconds.
+  path: Assets/Cube.prefab
+  artifactKey: Guid(140426279e666ee4ca084fb99fbe0e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube.prefab using Guid(140426279e666ee4ca084fb99fbe0e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3616cd823521f41b754e8621de809c') in 0.269330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 8.463698 seconds.
+  path: Assets/prefab.prefab
+  artifactKey: Guid(140426279e666ee4ca084fb99fbe0e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab.prefab using Guid(140426279e666ee4ca084fb99fbe0e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4363505610ead9c1e9dcca2ec179cb9b') in 0.006850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 14.859597 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f658cb17357ae16194dd7dd31fb654') in 0.000541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.463440 seconds.
+  path: Assets/cubo.prefab
+  artifactKey: Guid(140426279e666ee4ca084fb99fbe0e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cubo.prefab using Guid(140426279e666ee4ca084fb99fbe0e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579b71dac2432875a63162b659163faa') in 0.006705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.407 seconds
+Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.897 seconds
+Domain Reload Profiling: 1302ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (191ms)
+		LoadAssemblies (250ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (898ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (359ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (29.7 KB). Loaded Objects now: 3551.
+Memory consumption went from 117.6 MB to 117.6 MB.
+Total: 3.727900 ms (FindLiveObjects: 0.272200 ms CreateObjectMapping: 0.101000 ms MarkObjects: 3.302900 ms  DeleteObjects: 0.050400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 317.899966 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002724 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003471 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000504 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011572 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000475 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007124 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000520 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007919 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000825 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007397 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000465 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007021 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000526 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007442 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000476 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006669 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000480 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007257 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000479 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006925 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000440 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008017 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000451 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005962 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000441 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008850 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000563 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007843 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000449 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006860 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000472 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007037 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000436 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006528 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000432 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006911 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000449 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007183 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000465 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006837 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000429 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006242 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000428 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006717 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000464 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006960 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000639 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006556 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000470 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006141 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000431 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006957 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000479 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006136 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000424 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006129 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000469 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005792 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000491 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005770 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000473 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006799 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000432 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005845 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000434 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006031 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000425 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005922 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000426 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006470 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000440 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006360 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000429 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006576 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000562 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006215 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000430 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007014 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000438 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006864 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000443 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006619 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000563 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006505 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000433 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007031 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000453 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007162 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000423 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008292 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000443 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007707 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000551 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007929 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000652 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006862 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000504 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007362 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000482 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007260 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000574 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007618 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000438 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007931 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000471 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007496 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000491 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007544 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000479 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007516 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000466 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008036 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000424 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008040 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000651 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.009785 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000510 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007346 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000567 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006280 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000575 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006471 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000444 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007126 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000508 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006627 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000554 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006786 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000456 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011341 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000506 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006654 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000435 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006640 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000438 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007221 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000469 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006245 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000465 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006002 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000463 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007313 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000426 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006814 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000473 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006339 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000455 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007233 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000497 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007430 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000547 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.009923 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000404 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006015 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000436 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007227 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000417 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007186 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000434 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006719 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000425 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006054 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000430 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006766 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000413 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T10:42:08.8165492Z' while content on disk has modification time of '2023-09-18T10:42:23.5005043Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.405 seconds
+Refreshing native plugins compatible for Editor in 2.72 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.850 seconds
+Domain Reload Profiling: 1253ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (187ms)
+		LoadAssemblies (246ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (851ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (318ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (228ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (29.6 KB). Loaded Objects now: 3554.
+Memory consumption went from 117.8 MB to 117.8 MB.
+Total: 2.748200 ms (FindLiveObjects: 0.270700 ms CreateObjectMapping: 0.091100 ms MarkObjects: 2.341400 ms  DeleteObjects: 0.044300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 754.749547 seconds.
+  path: Assets/cubo.prefab
+  artifactKey: Guid(140426279e666ee4ca084fb99fbe0e28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/cubo.prefab using Guid(140426279e666ee4ca084fb99fbe0e28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7695a01d842ab1be2bf5284978752fa1') in 0.127506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1764.063931 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338c74296bf157534d0825a89d44613f') in 0.000662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 27.773872 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ae245172a01c9caf4cf7689f813a7d') in 0.001115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.970781 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '00000000000000000000000000000000') in 0.012103 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T11:24:50.9568113Z' while content on disk has modification time of '2023-09-18T11:24:51.7628444Z'
+  ERROR: Build asset version error: assets/scripts/prefabscriptableobject.cs in SourceAssetDB has modification time of '2023-09-18T11:24:50.9568113Z' while content on disk has modification time of '2023-09-18T11:24:51.7628444Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.435 seconds
+Refreshing native plugins compatible for Editor in 3.47 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.959 seconds
+Domain Reload Profiling: 1392ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (215ms)
+		LoadAssemblies (282ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (960ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (352ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (29.6 KB). Loaded Objects now: 3557.
+Memory consumption went from 117.8 MB to 117.8 MB.
+Total: 3.250300 ms (FindLiveObjects: 0.270300 ms CreateObjectMapping: 0.086100 ms MarkObjects: 2.842400 ms  DeleteObjects: 0.050600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8.417167 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a15d4387835ac1592555cd44368a06') in 0.002164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.439 seconds
+Refreshing native plugins compatible for Editor in 3.91 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.838 seconds
+Domain Reload Profiling: 1274ms
+	BeginReloadAssembly (165ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (205ms)
+		LoadAssemblies (275ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (839ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (346ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (257ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (29.6 KB). Loaded Objects now: 3560.
+Memory consumption went from 117.8 MB to 117.8 MB.
+Total: 2.586400 ms (FindLiveObjects: 0.264200 ms CreateObjectMapping: 0.094300 ms MarkObjects: 2.181700 ms  DeleteObjects: 0.045300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5.434125 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00c7752aeb40250a329a62da0ea9b85') in 0.001784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.409 seconds
+Refreshing native plugins compatible for Editor in 3.97 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.806 seconds
+Domain Reload Profiling: 1212ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (195ms)
+		LoadAssemblies (246ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (806ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (309ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (226ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (29.7 KB). Loaded Objects now: 3563.
+Memory consumption went from 117.8 MB to 117.8 MB.
+Total: 2.582600 ms (FindLiveObjects: 0.224700 ms CreateObjectMapping: 0.093800 ms MarkObjects: 2.219900 ms  DeleteObjects: 0.043100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 188.142701 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(196b41b8c6ce5d44180bd37fca5a3a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(196b41b8c6ce5d44180bd37fca5a3a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5937b0d365bad58c927503b7e8d78fd') in 0.002044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.402 seconds
+Refreshing native plugins compatible for Editor in 2.93 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.788 seconds
+Domain Reload Profiling: 1188ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (247ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (788ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (318ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (231ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (29.7 KB). Loaded Objects now: 3566.
+Memory consumption went from 117.8 MB to 117.8 MB.
+Total: 2.706400 ms (FindLiveObjects: 0.229000 ms CreateObjectMapping: 0.080500 ms MarkObjects: 2.347200 ms  DeleteObjects: 0.048400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 312.315418 seconds.
+  path: Assets/ScriptableObjects
+  artifactKey: Guid(63ceca2016eff9b4e86c5bcb7c098739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects using Guid(63ceca2016eff9b4e86c5bcb7c098739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b86a4413ed32176cd21ffdaf5aa074') in 0.001848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.371083 seconds.
+  path: Assets/ScriptableObjects/prefabSO.asset
+  artifactKey: Guid(cf4da12e54db6d349802087f23878576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/prefabSO.asset using Guid(cf4da12e54db6d349802087f23878576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22bcbe5c829412013bcb3214cd178a5') in 0.008742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 12.315672 seconds.
+  path: Assets/ScriptableObjects/cuboVerde.asset
+  artifactKey: Guid(cf4da12e54db6d349802087f23878576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/cuboVerde.asset using Guid(cf4da12e54db6d349802087f23878576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b523e928136884c66878cb1582fdcd') in 0.001257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.180864 seconds.
+  path: Assets/ScriptableObjects/CuboVerde.asset
+  artifactKey: Guid(cf4da12e54db6d349802087f23878576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/CuboVerde.asset using Guid(cf4da12e54db6d349802087f23878576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8199b04e0a91b66a363eb27cab10a51') in 0.000991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.431 seconds
+Refreshing native plugins compatible for Editor in 5.26 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.881 seconds
+Domain Reload Profiling: 1311ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (212ms)
+		LoadAssemblies (268ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (882ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (342ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (252ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 4.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (29.6 KB). Loaded Objects now: 3569.
+Memory consumption went from 117.8 MB to 117.8 MB.
+Total: 2.600900 ms (FindLiveObjects: 0.243700 ms CreateObjectMapping: 0.081900 ms MarkObjects: 2.232000 ms  DeleteObjects: 0.042600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 173.419545 seconds.
+  path: Assets/ScriptableObjects/prefabSO.asset
+  artifactKey: Guid(ca51eeffb5222384a9d192b6b07d4c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/prefabSO.asset using Guid(ca51eeffb5222384a9d192b6b07d4c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf26b099ade79a4527a3f64472ec0ac') in 0.011025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.099596 seconds.
+  path: Assets/ScriptableObjects/CuboAzul.asset
+  artifactKey: Guid(ca51eeffb5222384a9d192b6b07d4c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/CuboAzul.asset using Guid(ca51eeffb5222384a9d192b6b07d4c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2724f8882240fb4a435061ae3f0091') in 0.000933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.775218 seconds.
+  path: Assets/ScriptableObjects/CuboRojo.asset
+  artifactKey: Guid(eb8dc08c42e8e50499b3a92a88a073f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/CuboRojo.asset using Guid(eb8dc08c42e8e50499b3a92a88a073f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b185d3543f98cc77e108a062c05b19d') in 0.000981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.360116 seconds.
+  path: Assets/ScriptableObjects/CuboRosa.asset
+  artifactKey: Guid(a322724856914b34ca4a50f11960863c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/CuboRosa.asset using Guid(a322724856914b34ca4a50f11960863c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505d586d7968a4901e4e73b431b44b02') in 0.001002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 32.329399 seconds.
+  path: Assets/scripts/prefabScriptableObject.cs
+  artifactKey: Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/prefabScriptableObject.cs using Guid(e0749daaaa3a782429fac8cc40bf1389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0923ca816f05ab9248e010846197a410') in 0.000531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.894319 seconds.
+  path: Assets/scripts/spawner.cs
+  artifactKey: Guid(52adcbc08c0044842931558d7ea8b5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/spawner.cs using Guid(52adcbc08c0044842931558d7ea8b5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447f59bb5e5b9b2ff00285b372c73c0e') in 0.000612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.426 seconds
+Refreshing native plugins compatible for Editor in 4.00 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.909 seconds
+Domain Reload Profiling: 1332ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (191ms)
+		LoadAssemblies (267ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (910ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (439ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (341ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (29.6 KB). Loaded Objects now: 3573.
+Memory consumption went from 117.8 MB to 117.8 MB.
+Total: 3.391900 ms (FindLiveObjects: 0.260500 ms CreateObjectMapping: 0.098400 ms MarkObjects: 2.974300 ms  DeleteObjects: 0.057700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4.633117 seconds.
+  path: Assets/scripts/spawner.cs
+  artifactKey: Guid(52adcbc08c0044842931558d7ea8b5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/spawner.cs using Guid(52adcbc08c0044842931558d7ea8b5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3398f7d4f3b4bc5a08e475c83a5d03') in 0.001926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.403 seconds
+Refreshing native plugins compatible for Editor in 3.39 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.809 seconds
+Domain Reload Profiling: 1210ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (186ms)
+		LoadAssemblies (246ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (810ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (299ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (219ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (29.6 KB). Loaded Objects now: 3576.
+Memory consumption went from 117.8 MB to 117.8 MB.
+Total: 2.852700 ms (FindLiveObjects: 0.222000 ms CreateObjectMapping: 0.087400 ms MarkObjects: 2.499900 ms  DeleteObjects: 0.042600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.372 seconds
+Refreshing native plugins compatible for Editor in 3.08 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.843 seconds
+Domain Reload Profiling: 1213ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (229ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (844ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (374ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (274ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (29.7 KB). Loaded Objects now: 3579.
+Memory consumption went from 117.8 MB to 117.8 MB.
+Total: 3.222200 ms (FindLiveObjects: 0.253900 ms CreateObjectMapping: 0.292400 ms MarkObjects: 2.626200 ms  DeleteObjects: 0.048900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.389 seconds
+Refreshing native plugins compatible for Editor in 2.81 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.796 seconds
+Domain Reload Profiling: 1182ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (237ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (796ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (328ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (236ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (29.6 KB). Loaded Objects now: 3582.
+Memory consumption went from 117.8 MB to 117.8 MB.
+Total: 2.841600 ms (FindLiveObjects: 0.227000 ms CreateObjectMapping: 0.181000 ms MarkObjects: 2.393600 ms  DeleteObjects: 0.039300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.374 seconds
+Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.857 seconds
+Domain Reload Profiling: 1229ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (175ms)
+		LoadAssemblies (239ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (858ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (369ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (273ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (29.7 KB). Loaded Objects now: 3585.
+Memory consumption went from 117.8 MB to 117.8 MB.
+Total: 3.410900 ms (FindLiveObjects: 0.239600 ms CreateObjectMapping: 0.098200 ms MarkObjects: 3.016300 ms  DeleteObjects: 0.055700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.384 seconds
+Refreshing native plugins compatible for Editor in 2.63 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.823 seconds
+Domain Reload Profiling: 1205ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (172ms)
+		LoadAssemblies (239ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (824ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (366ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (268ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (29.7 KB). Loaded Objects now: 3588.
+Memory consumption went from 117.9 MB to 117.8 MB.
+Total: 2.604100 ms (FindLiveObjects: 0.235300 ms CreateObjectMapping: 0.092900 ms MarkObjects: 2.233400 ms  DeleteObjects: 0.042000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.382 seconds
+Refreshing native plugins compatible for Editor in 3.08 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.875 seconds
+Domain Reload Profiling: 1255ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (176ms)
+		LoadAssemblies (237ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (876ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (379ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (29.6 KB). Loaded Objects now: 3591.
+Memory consumption went from 117.9 MB to 117.8 MB.
+Total: 3.198100 ms (FindLiveObjects: 0.245200 ms CreateObjectMapping: 0.232800 ms MarkObjects: 2.664000 ms  DeleteObjects: 0.055100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3277.532431 seconds.
+  path: Assets/ScriptableObjects/CuboAzul.asset
+  artifactKey: Guid(ca51eeffb5222384a9d192b6b07d4c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/CuboAzul.asset using Guid(ca51eeffb5222384a9d192b6b07d4c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6a89497497d37ccaf760db8724f4bc') in 0.017484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
